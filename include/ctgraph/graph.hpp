@@ -1,6 +1,6 @@
+#pragma once
 #include <array>
-#include <cstddef>
-#include <utility>
+
 
 struct Edge {
     size_t from;
@@ -12,10 +12,10 @@ struct Graph {
     std::array<std::array<size_t, NumNodes>, NumNodes> adj{};
     std::array<size_t, NumNodes> sizes{};
 
-    consteval Graph(std::array<Edge, NumEdges> edges) {
+    consteval explicit Graph(std::array<Edge, NumEdges> edges) {
         for (const auto& [from, to] : edges) {
             adj[from][sizes[from]++] = to;
-            if constexpr (Undirected && from != to)
+            if (Undirected && from != to)
                 adj[to][sizes[to]++] = from;
         }
     }
@@ -24,7 +24,7 @@ struct Graph {
         return adj[node];
     }
 
-    constexpr size_t neighbor_count(size_t node) const {
+    [[nodiscard]] constexpr size_t neighbor_count(size_t node) const {
         return sizes[node];
     }
 };
