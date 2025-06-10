@@ -20,6 +20,7 @@ namespace ctgraph
             for (size_t i = 0; i < graph.sizes[u]; ++i)
             {
                 size_t v = graph.adj[u][i];
+
                 if (u < v && coloring.color[u] == coloring.color[v])
                     return false;
             }
