@@ -1,0 +1,9 @@
+/home/runner/work/compile-time-graph/compile-time-graph/build/CMakeFiles/example_petersen.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/CMakeFiles/example_complete.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/CMakeFiles/test.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/CMakeFiles/edit_cache.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/CMakeFiles/rebuild_cache.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/tests/CMakeFiles/test_coloring.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/tests/CMakeFiles/test.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/tests/CMakeFiles/edit_cache.dir
+/home/runner/work/compile-time-graph/compile-time-graph/build/tests/CMakeFiles/rebuild_cache.dir

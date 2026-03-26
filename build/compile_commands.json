@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/runner/work/compile-time-graph/compile-time-graph/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/compile-time-graph/compile-time-graph/include -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/example_petersen.dir/examples/example_petersen.cpp.o -c /home/runner/work/compile-time-graph/compile-time-graph/examples/example_petersen.cpp",
+  "file": "/home/runner/work/compile-time-graph/compile-time-graph/examples/example_petersen.cpp",
+  "output": "CMakeFiles/example_petersen.dir/examples/example_petersen.cpp.o"
+},
+{
+  "directory": "/home/runner/work/compile-time-graph/compile-time-graph/build",
+  "command": "/usr/bin/c++  -I/home/runner/work/compile-time-graph/compile-time-graph/include -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/example_complete.dir/examples/example_complete.cpp.o -c /home/runner/work/compile-time-graph/compile-time-graph/examples/example_complete.cpp",
+  "file": "/home/runner/work/compile-time-graph/compile-time-graph/examples/example_complete.cpp",
+  "output": "CMakeFiles/example_complete.dir/examples/example_complete.cpp.o"
+},
+{
+  "directory": "/home/runner/work/compile-time-graph/compile-time-graph/build/tests",
+  "command": "/usr/bin/c++  -I/home/runner/work/compile-time-graph/compile-time-graph/include -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/test_coloring.dir/test_coloring.cpp.o -c /home/runner/work/compile-time-graph/compile-time-graph/tests/test_coloring.cpp",
+  "file": "/home/runner/work/compile-time-graph/compile-time-graph/tests/test_coloring.cpp",
+  "output": "tests/CMakeFiles/test_coloring.dir/test_coloring.cpp.o"
+}
+]

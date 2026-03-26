@@ -1,0 +1,3 @@
+ColoringTest 0 0
+---
+ColoringTest
