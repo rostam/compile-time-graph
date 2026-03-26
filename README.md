@@ -95,7 +95,7 @@ Both algorithms visit all reachable nodes but in different orders:
 | P₅ (5 nodes) | BFS | 5 | Visits in order: 0 → 1 → 2 → 3 → 4 |
 | DAG chain (4 nodes) | DFS | 4 | Visits in order: 0 → 1 → 2 → 3 |
 | C₆ (6 nodes) | DFS | 6 | Follows one direction around the cycle |
-| S₅ (5 nodes) | BFS | 5 | Center first, then all leaves at depth 1 |
+| S₅ (star, 5 nodes) | BFS | 5 | Center first, then all leaves at depth 1 |
 
 ### Coloring: Greedy vs Welsh-Powell
 
