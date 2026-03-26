@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_complete.dir/link.d CMakeFiles/example_complete.dir/examples/example_complete.cpp.o -o example_complete

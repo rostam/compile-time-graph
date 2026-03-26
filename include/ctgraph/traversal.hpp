@@ -8,7 +8,9 @@ struct DFSResult {
 template <size_t NumNodes, size_t NumEdges, bool Undirected = false>
 consteval DFSResult<NumNodes> dfs(const Graph<NumNodes, NumEdges, Undirected>& graph, size_t start) {
     DFSResult<NumNodes> result{};
-    std::array<size_t, NumNodes> stack{};
+    // Stack may contain duplicate entries (checked on pop), so size > NumNodes
+    constexpr size_t StackSize = NumNodes * NumNodes;
+    std::array<size_t, StackSize> stack{};
     size_t stack_top = 0;
     stack[stack_top++] = start;
 

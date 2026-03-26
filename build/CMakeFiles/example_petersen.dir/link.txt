@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_petersen.dir/link.d CMakeFiles/example_petersen.dir/examples/example_petersen.cpp.o -o example_petersen
